@@ -4,6 +4,7 @@ vim.g.maplocalleader = " "
 require("config.lazy")
 require("config.telescope")
 
+
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.tabstop = 4
