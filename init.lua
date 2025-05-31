@@ -4,6 +4,10 @@ vim.g.maplocalleader = " "
 require("config.lazy")
 require("config.telescope")
 
+vim.api.nvim_set_hl(0, 'Normal', { bg = 'none' })
+vim.api.nvim_set_hl(0, 'NormalFloat', { bg = 'none' })
+vim.api.nvim_set_hl(0, 'FloatBorder', { bg = 'none' })
+vim.api.nvim_set_hl(0, 'Pmenu', { bg = 'none' })
 
 vim.opt.number = true
 vim.opt.relativenumber = true
